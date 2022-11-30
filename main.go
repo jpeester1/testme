@@ -1,4 +1,4 @@
-package main
+package testme
 
 import "fmt"
 
@@ -7,6 +7,6 @@ type Person struct {
 	lastName  string
 }
 
-func main() {
+func GetName() {
 	fmt.Println("Jason was here")
 }
